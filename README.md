@@ -64,10 +64,10 @@ The model achieves excellent performance on the test dataset:
 
 | Metric | Score | Description |
 |--------|-------|-------------|
-| **Accuracy** | 0.98 | Overall correct classifications |
-| **Precision** | 0.96 | Spam predictions that are actually spam |
-| **Recall** | 0.93 | Percentage of spam messages detected |
-| **F1 Score** | 0.95 | Balanced performance measure |
+| **Accuracy** | 0.99 | Overall correct classifications |
+| **Precision** | 0.98 | Spam predictions that are actually spam |
+| **Recall** | 0.94 | Percentage of spam messages detected |
+| **F1 Score** | 0.96 | Balanced performance measure |
 
 ## Usage
 
@@ -99,7 +99,7 @@ prediction = model.predict(ham_vectorized)
 
 ## Results
 
-The Naive Bayes classifier successfully identifies spam messages with 98% accuracy. The model is particularly effective at:
+The Naive Bayes classifier successfully identifies spam messages with 99% accuracy. The model is particularly effective at:
 
 - Detecting promotional language and offers
 - Identifying urgent call-to-action phrases
